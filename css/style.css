@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", arial, sans-serif;
+}
+
+.navbar-menu {
+  min-height: 40px;
+  background-color: #2e9bfc;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: none;
+}
+
+.main-menu .navbar-nav .active a {
+  background-color: #D33;
+}
+.main-menu .navbar-nav li {
+  margin-right: 5px;
+}
+.main-menu .navbar-nav li a {
+  padding: 10px 15px;
+  text-align: center;
+  color: #FFF;
+  display: block;
+}
+.main-menu .navbar-nav li a:hover {
+  background-color: #D33;
+}
+
+/*# sourceMappingURL=style.css.map */
