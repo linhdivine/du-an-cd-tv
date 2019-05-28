@@ -33,9 +33,12 @@ body {
 				text-align: center;
 				color: #FFF;
 				display: block;
-				&:hover {
+				&:hover{
 					background-color: #D33;
 				}
+				&:focus {
+					background-color: #D33;
+				} 
 			}
 		} 
 	}

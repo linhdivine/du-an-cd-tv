@@ -28,6 +28,8 @@ body {
   margin-right: 5px;
 }
 .main-menu .navbar-nav li a {
+  font-size: 12px;
+  font-weight: bold;
   padding: 10px 15px;
   text-align: center;
   color: #FFF;
@@ -35,6 +37,30 @@ body {
 }
 .main-menu .navbar-nav li a:hover {
   background-color: #D33;
+}
+.main-menu .navbar-nav li a:focus {
+  background-color: #D33;
+}
+
+.slide-adv .item .dev-img {
+  background-color: #999;
+  width: 100%;
+  height: 500px;
+}
+
+.title-sidebar .border-title {
+  height: 1px;
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 10%;
+}
+.title-sidebar .border-title .left {
+  background: rgba(0, 0, 0, 0.08);
+  background-image: -webkit-linear-gradient(left, transparent, blue);
+  background-image: linear-gradient(to right, transparent, blue);
 }
 
 /*# sourceMappingURL=style.css.map */
