@@ -1,12 +1,12 @@
 $(function() {
     $('.slide-adv').owlCarousel({
         loop: true,
-        nav: false,
-        dots: true,
+        nav: true,
+        dots: false,
         smartSpeed: 500,
         autoplay: true,
         autoplayTimeout: 5000,
-        // navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+        navText: ['<i class="fal fa-chevron-circle-left"></i>', '<i class="fal fa-chevron-circle-right"></i>'],
         responsive: {
             0: {
                 items: 1
