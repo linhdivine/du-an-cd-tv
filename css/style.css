@@ -25,6 +25,7 @@ body {
   background-color: #D33;
 }
 .main-menu .navbar-nav li {
+  position: relative;
   margin-right: 5px;
 }
 .main-menu .navbar-nav li a {
@@ -40,6 +41,25 @@ body {
 }
 .main-menu .navbar-nav li a:focus {
   background-color: #D33;
+}
+.main-menu .navbar-nav li .sub-menu {
+  position: absolute;
+  background-color: #2E9BFC;
+  top: 100%;
+  z-index: 10;
+  width: 250px;
+  display: none;
+  list-style: none;
+}
+.main-menu .navbar-nav li .sub-menu li {
+  text-align: left;
+}
+.main-menu .navbar-nav li .sub-menu li a {
+  display: block;
+  text-align: justify;
+}
+.main-menu .navbar-nav li:hover .sub-menu {
+  display: inline-block;
 }
 
 .slide-adv {
