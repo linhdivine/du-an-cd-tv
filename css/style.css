@@ -15,7 +15,7 @@ body {
 
 .navbar-menu {
   min-height: 40px;
-  background-color: #fff;
+  background-color: #D3D3D8;
   -webkit-border-radius: 0;
   border-radius: 0;
   border: none;
@@ -209,7 +209,7 @@ body {
   float: left;
 }
 .tab-home li a {
-  padding: 10px 14px;
+  padding: 10px 34px;
   display: block;
   background-image: linear-gradient(to right, #3599db, #7ebee8);
   color: #fff;
@@ -367,7 +367,7 @@ body {
 }
 
 .custom-sidebar {
-  padding: 0;
+  padding-left: 0;
 }
 
 .menu-sidrbar {
@@ -389,6 +389,16 @@ body {
   margin: 0;
   font-size: 20px;
   color: #fff;
+}
+.menu-sidrbar .img-widget {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.menu-sidrbar .img-widget img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .menu-sidrbar .nav-sidebar {
   background-color: #ededed;
@@ -415,22 +425,81 @@ body {
   border-radius: 40px 0 40px 0;
 }
 
-@keyframes menu {
-  0% {
-    max-width: 0;
-  }
-  25% {
-    max-width: 0;
-  }
-  50% {
-    max-width: 500px;
-  }
-  75% {
-    max-width: 0;
-  }
-  100% {
-    max-width: 0;
-  }
+.title-page {
+  text-align: center;
+}
+.title-page h1 {
+  font-size: 24px;
+}
+.title-page .border-title {
+  width: 150px;
+  height: 2px;
+  background-color: #F88C00;
+  margin: 0 auto;
+}
+
+.node-news {
+  padding-right: 15px;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.node-news .title-node-news {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.node-news .title-node-news h2 {
+  font-size: 20px;
+  color: #464646;
+  margin: 0 0 10px;
+}
+.node-news .title-node-news .entry-data span {
+  color: #969696;
+  margin-right: 5px;
+}
+.node-news .flexbox {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border-bottom: 1px solid #ededed;
+}
+.node-news .flexbox .entry-image {
+  float: left;
+  width: 35%;
+  height: 150px;
+}
+.node-news .flexbox .entry-image a img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.node-news .flexbox .summary {
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 65%;
+  float: left;
+}
+.node-news .flexbox .summary a {
+  display: inline-block;
+  background-color: #F88C00;
+  color: #fff;
+  padding: 6px 12px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+.node-news .flexbox .summary a:hover {
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  background-color: #eee;
+  color: #464646;
+  text-decoration: none;
+}
+.node-news .flexbox::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,7 +15,7 @@ body {
 
 .navbar-menu {
     min-height: 40px;
-    background-color: #fff;
+    background-color: #D3D3D8;
     -webkit-border-radius: 0;
     border-radius: 0;
     border: none;
@@ -221,7 +221,7 @@ body {
         display: block;
         float: left;
         a {
-            padding: 10px 14px;
+            padding: 10px 34px;
             display: block;
             background-image: linear-gradient(to right, #3599db, #7ebee8);
             color: #fff;
@@ -407,7 +407,7 @@ body {
 }
 
 .custom-sidebar {
-    padding: 0;
+	padding-left: 0;
 }
 
 .menu-sidrbar {
@@ -431,7 +431,17 @@ body {
             color: #fff;
         }
     }
-
+    .img-widget {
+			width: 100%;
+			display: block;
+			height: auto;
+			img {
+				display: block;
+				max-width: 100%;
+				height: auto;
+				
+			}
+		}
     .nav-sidebar {
         background-color: rgb(237, 237, 237);
         list-style: none;
@@ -462,25 +472,83 @@ body {
         border-radius: 40px 0 40px 0;
     }
 }
+.title-page {
+	text-align: center;
+	h1 {
+		font-size: 24px;
+	}
+	.border-title {
+		width: 150px;
+		height: 2px;
+		background-color: #F88C00;
+		margin: 0 auto;
+	}
+}
 
-@keyframes menu {
-	0% {
-    max-width: 0;
-  }
-  
-  25% {
-    max-width: 0;
-  }
-  
-  50% {
-    max-width: 500px;
-  }
-  
-  75% {
-    max-width: 0;
-  }
-  
-  100% {
-    max-width: 0;
-  }
+.node-news {
+	padding-right: 15px;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	.title-node-news {
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+		h2 {
+			font-size: 20px;
+			color: #464646;
+			margin: 0 0 10px;
+		}
+		.entry-data {
+			span {
+				color: #969696;
+				margin-right: 5px;
+			}
+		}
+	}
+	.flexbox {
+		display: block;
+		width: 100%;
+		padding: 15px 0;
+		border-bottom: 1px solid #ededed;
+		.entry-image {
+			float: left;
+			width: 35%;
+			height: 150px;
+			a {
+				img {
+					display: block;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+		}
+		.summary {
+			padding-left: 20px;
+			padding-top: 10px;
+			width: 65%;
+			float: left;
+			a {
+				display: inline-block;
+				background-color: #F88C00;
+				color: #fff;
+				padding: 6px 12px;
+				-webkit-transition: 1s all ease;
+				        transition: 1s all ease;
+				&:hover {
+					-webkit-transition: 1s all ease;
+				        transition: 1s all ease;
+				  background-color: #eee;
+				  color: #464646;
+				  text-decoration: none;
+				}
+			}
+		}
+		&::after {
+			display: block;
+			content: "";
+			clear: both;
+		}
+	}
 }
