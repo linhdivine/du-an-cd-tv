@@ -25,13 +25,11 @@ $(function() {
     $('.counter').each(function() {
         var $this = $(this),
             countTo = $this.attr('data-count');
-
         $({ countNum: $this.text() }).animate({
                 countNum: countTo
             },
 
             {
-
                 duration: 10000,
                 easing: 'linear',
                 step: function() {
@@ -41,7 +39,6 @@ $(function() {
                     $this.text(this.countNum);
                     //alert('finished');
                 }
-
             });
 
 
@@ -71,11 +68,9 @@ $(function() {
             'sidebarBehavior': 'modern'
         };
         options = $.extend(defaults, options);
-
         // Validate options
         options.additionalMarginTop = parseInt(options.additionalMarginTop) || 0;
         options.additionalMarginBottom = parseInt(options.additionalMarginBottom) || 0;
-
         tryInitOrHookIntoEvents(options, this);
 
         // Try doing init, otherwise hook into window.resize and document.scroll and try again then.
