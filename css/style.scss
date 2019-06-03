@@ -559,7 +559,7 @@ body {
 
         .entry-image {
             float: left;
-            width: 35%;
+            width: 30%;
             height: 150px;
 
             a {
@@ -574,7 +574,7 @@ body {
         .summary {
             padding-left: 20px;
             padding-top: 10px;
-            width: 65%;
+            width: 70%;
             float: left;
 
             a {
@@ -604,10 +604,13 @@ body {
 }
 
 .class-bassic {
-    background-image: linear-gradient(to right, #36A1ED, #b2e1ff);
+  // /  background-image: linear-gradient(to right, #36A1ED, #b2e1ff);
     -webkit-border-radius: 40px 0 0 40px;
     border-radius: 40px 0 0 40px;
         padding: 0;
+}
+.clacss-page-news {
+  background: none;  
 }
 
 // .srollbar-1 {
