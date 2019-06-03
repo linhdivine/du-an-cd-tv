@@ -545,7 +545,7 @@ body {
 
         .entry-data {
             span {
-                color: #969696;
+                color: #ececec;
                 margin-right: 5px;
             }
         }
@@ -605,8 +605,8 @@ body {
 
 .class-bassic {
     background-image: linear-gradient(to right, #36A1ED, #b2e1ff);
-    -webkit-border-radius: 40px;
-    border-radius: 40px;
+    -webkit-border-radius: 40px 0 0 40px;
+    border-radius: 40px 0 0 40px;
         padding: 0;
 }
 
