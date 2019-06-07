@@ -516,6 +516,16 @@ body {
     }
 }
 
+.video-about {
+ height: 400px;
+ width: 820px;
+ iframe {
+     display: block;
+     width: 100%;
+     height: 100%;
+ }   
+}
+
 .menu-sidebar-2 {
     .title-siderbar {
         border-radius: 40px 0 40px 0;
