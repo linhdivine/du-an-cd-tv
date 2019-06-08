@@ -95,9 +95,12 @@
 		}
 }
 @media screen and (max-width: 767px) {
-	.slide-adv .item {
-		height: auto;
-	}
+		.node-news .flexbox .entry-image a img {
+		    	height: auto;
+	  }
+		.slide-adv .item {
+			height: auto;
+		}
     .navbar-menu {
         min-height: 1px;
     }

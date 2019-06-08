@@ -544,4 +544,16 @@ body {
   background: none;
 }
 
+.table-hanh-chinh {
+  width: 75%;
+}
+.table-hanh-chinh .hanh-chinh thead th {
+  text-align: center;
+  color: #00c;
+}
+.table-hanh-chinh .hanh-chinh tbody td {
+  text-align: center;
+  color: #111;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -449,7 +449,7 @@ body {
 .class-bassic {
     .custom-sidebar {
         padding: 0;
-       background-color: #3498DB;
+        background-color: #3498DB;
     }
 }
 
@@ -458,6 +458,7 @@ body {
     height: auto;
     display: block;
     margin-bottom: 15px;
+
     &:last-child {
         margin: 0;
     }
@@ -517,13 +518,14 @@ body {
 }
 
 .video-about {
- height: 400px;
- width: 820px;
- iframe {
-     display: block;
-     width: 100%;
-     height: 100%;
- }   
+    height: 400px;
+    width: 820px;
+
+    iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .menu-sidebar-2 {
@@ -640,30 +642,20 @@ body {
     background: none;
 }
 
-// .srollbar-1 {
-//     height: 590px;
-//     overflow-y: scroll;
-//     overflow-x: hidden;
-//     margin-bottom: 15px;
-//     padding: 0 10px;
-// }
-
-// /*
-//  *  STYLE 5
-//  */
-// .style-5::-webkit-scrollbar-track {
-//     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
-//     background-color: rgba(245, 245, 245, 0);
-// }
-
-// .style-5::-webkit-scrollbar {
-//     width: 10px;
-//     background-color: rgba(245, 245, 245, 0);
-// }
-
-// .style-5::-webkit-scrollbar-thumb {
-//     background-color: rgba(0, 170, 238, 0);
-//     background-image: -webkit-gradient(linear, 0 0, 0 100%,
-//         color-stop(0, rgba(255, 255, 255, 0)),
-//         color-stop(0, transparent), to(transparent));
-// }
+.table-hanh-chinh {
+    width: 75%;
+    .hanh-chinh {
+        thead {
+            th {
+              text-align: center;
+              color: #00c;  
+            }
+        }
+        tbody {
+            td {
+            text-align: center;
+            color: #111;
+            }
+        }
+    }
+}
