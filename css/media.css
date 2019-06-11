@@ -141,7 +141,7 @@
     #cssmenu ul ul li {
     }
     #cssmenu ul ul li:hover {
-        background: #363636 !important
+        background: #363636;
     }
     #cssmenu ul ul ul li a {
         padding-left: 35px
@@ -333,61 +333,21 @@
         height: auto;
     }
 }
-
+@media screen and (max-width: 768px){
+	.title-sidebar {
+		margin-top: 10px;
+	}
+	.title-sidebar h4 {
+	font-size: 10px;
+}
+}
 @media screen and (max-width: 767px) {
     .node-news .flexbox .entry-image a img {
         height: auto;
     }
-
     .slide-adv .item {
         height: auto;
     }
-
-    .navbar-menu {
-        min-height: 1px;
-    }
-
-    .main-menu .navbar-nav {
-        margin-left: 15px;
-    }
-
-    .main-menu .navbar-nav li {
-        position: static;
-    }
-
-    .main-menu .navbar-nav li a {
-        text-align: left;
-    }
-
-    .main-menu .navbar-nav li .sub-menu::before {
-        display: none;
-    }
-
-    .main-menu .navbar-nav li .sub-menu {
-        position: static;
-        top: auto;
-        width: 95%;
-        display: none;
-        box-shadow: none;
-        margin-left: 10px;
-    }
-
-    .main-menu .navbar-nav li .sub-menu.display {
-        display: block;
-    }
-
-    /* 	.main-menu .navbar-nav li:hover .sub-menu {
-		display: none;
-	} */
-    .navbar-toggle {
-        background-color: #fff;
-        border: none;
-    }
-
-    .navbar-toggle .icon-bar {
-        background-color: #afdfff;
-    }
-
     .custom-sidebar {
         padding-left: 15px;
     }
@@ -395,16 +355,13 @@
     .left-sidebar {
         display: none;
     }
-
     .title-sidebar {
         width: 55%;
     }
-
     .video-about {
         width: 100%;
         height: auto;
     }
-
     .content-page {
         padding: 35px 0 15px;
     }
@@ -421,7 +378,6 @@
     .node-home .pro-info {
         text-align: center;
     }
-
     .node-page {
         width: 65%;
         margin: 0 auto 20px;
@@ -438,25 +394,24 @@
     .node-news:first-child {
         margin-top: 20px;
     }
-
     .title-sidebar {
         width: 75%;
     }
-
     .tab-home li a {
         padding: 8px 10px;
         font-size: 10px;
     }
-
     .node-page {
         width: 100%;
         margin: 0 auto 20px;
     }
-
+		.node-home .pro-img {
+			width: 85%;
+			height: auto;
+		}
     .node-news .title-node-news h2 a {
         font-size: 18px;
     }
-
     .node-news .flexbox .entry-image {
         width: 100%;
         float: none;
